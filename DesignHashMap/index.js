@@ -56,7 +56,7 @@ MyHashMap.prototype.remove = function(key) {
     this.set.some((value,index)=>{
         if(value.id===key)this.set.splice(index,1)
     })
-});
+};
 };
 
 /** 
